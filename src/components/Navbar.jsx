@@ -63,7 +63,7 @@ const Navbar = () => {
       >
         <ul className="menu menu-horizontal flex-col px-1 lg:flex-row">
           {navData.map(({ path, title }) => (
-            <li key={path} className="mx-auto">
+            <li key={path} className="mx-auto ">
               <NavLink
                 onClick={() => setNavToggle(false)}
                 href={path}
